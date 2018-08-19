@@ -1,0 +1,190 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+input, button, submit { border:none; } 
+button:focus {outline:0;}
+
+.vFull {
+	height: 100vh;
+}
+
+.pvFull {
+	height: 100%;
+}
+
+.wFull {
+	width: 100%;
+}
+
+.bg-flat1 {
+	background-color: #2980b9;
+}
+
+.bg-flat2 {
+	background-color: #3498db;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+	width: 100%;
+}
+
+.addNew {
+	transition: .3s ease;
+	color: #212529;
+	cursor: pointer;
+}
+
+.addNew:hover {
+	color: #424b54;
+}
+
+.NoStyledInput{
+	background-color:rgba(0,0,0,.3) !important;
+   	border:none !important;
+   	text-align: center;
+}
+
+.NoStyledInput, select, textarea{
+   	color: white;
+}
+
+.NoStyledInput::placeholder{
+   	color: #ccc;
+}
+
+.NoStyledTextArea{
+	background-color:rgba(255,255,255,.1) !important;
+   	border:none !important;
+   	text-align: justify;
+   	color: white;
+}
+
+.NoStyledTextArea, select, textarea{
+   	color: white;
+}
+
+.NoStyledTextArea::placeholder{
+   	color: white;
+}
+
+.addBottom {
+	transition: .3s ease;
+	color: #212529;
+	cursor: pointer;
+}
+
+.deleteBottom {
+	transition: .3s ease;
+	color: #212529;
+	cursor: pointer;
+}
+
+.deleteBottom2 {
+	transition: .3s ease;
+	color: #212529;
+	cursor: pointer;
+}
+
+.addBottom:hover {
+	color: #44bd32;
+	font-size: 1.25em;
+}
+
+.deleteBottom:hover {
+	color: #e74c3c;
+	font-size: 1.25em;
+}
+
+.deleteBottom2:hover {
+	color: #e74c3c;
+	font-size: 1em;
+}
+
+body {
+	/*background-color: #191919;*/
+		background-image: url('../src/bg.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+	width: 100%;
+}
+
+.round-border{
+	border-radius: 4px;
+}
+
+.backgroundimg{
+/*	background-image: url('../src/talon.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+	width: 100%;*/
+}
+
+.bannerFont{
+	font-family: Raleway;
+	font-size: 4em;
+	color:white;
+}
+
+.subFont{
+	font-family: Raleway;
+	font-size: 2em;
+}
+
+.bg-primary-t-6 {
+	background-color: rgba(0,0,0, 0.35);
+	/*border: 3px solid red;*/
+}
+
+.textarea1{
+	position: relative;
+}
+
+.textarea2{
+	position: relative;
+}
+
+.textarea1 textarea{
+  	z-index: 1;
+  	font-size: 13px;
+}
+
+.textarea2 textarea{
+  	z-index: 1;
+  	font-size: 13px;
+}
+
+.textarea1 button {
+	position: absolute;
+  	z-index: 5;
+  	background-color: transparent;
+	cursor: pointer;
+}
+
+#pasteButton{
+	top: 0;
+  	right: 0;
+  	width: 40px;
+  	height: 35px;
+}
+
+.txtshadow {
+	transition: .13s ease-in-out;
+}
+
+.txtshadow:hover{
+	color: #1F3A93;
+	/*box-shadow: 0px 0px 10px 0px rgba(200, 200, 200, 0.46);*/
+}
